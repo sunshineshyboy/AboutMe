@@ -4,8 +4,8 @@
 - 1994.11  
 - 本科,2017年届毕业生  
 - 毕业于电子科技大学中山学院,通信工程  
-- github: <a href="github.com/sunshineshyboy">@sunshineshyboy</a>  
-- blog: <a href="sunshineshyboy.github.io">@sunshineshyboy</a>  
+- github: <a href="https://github.com/sunshineshyboy">@sunshineshyboy</a>  
+- blog: <a href="https://sunshineshyboy.github.io">@sunshineshyboy</a>  
 - 个性签名: 努力是不会背叛人的  
 ---
 
