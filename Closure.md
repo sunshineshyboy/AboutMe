@@ -54,3 +54,32 @@ setTimeout定义的操作在函数调用栈清空之后才会执行的特点，f
 而当这些操作开始执行时，for循环的i值，已经先一步变成了6。因此输出结果总为6。  
 而我们想要让输出结果依次执行，我们就必须借助闭包的特性，每次循环时，将i值保存在一个闭包中，当setTimeout中定义的操作执行时，则访问对应闭包保存的i值即可。
 
+> 闭包的运行机制
+
+```
+var name = "The Window";
+var object = {
+  name : "My Object",
+  getNameFunc : function(){
+    alert(this.name);
+    return function(){
+      return this.name;
+    };
+  }
+};
+alert(object.getNameFunc()());
+```
+
+```
+var name = "The Window";
+var object = {
+  name : "My Object",
+  getNameFunc : function(){
+    var that = this;
+    return function(){
+      return that.name;
+    };
+  }
+};
+alert(object.getNameFunc()());
+```
