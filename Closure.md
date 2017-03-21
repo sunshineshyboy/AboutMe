@@ -27,9 +27,9 @@ function Counter(start){
 var foo =Counter(4);
 foo.increment();
 foo.get();  // 5
-Counter 函数返回两个闭包，函数 increment 和函数 get。  
-这两个函数都维持着对外部作用域 Counter 的引用，因此总可以访问此作用域内定义的变量 count。
 ```
+`Counter 函数返回两个闭包，函数 increment 和函数 get。`    
+`这两个函数都维持着对外部作用域 Counter 的引用，因此总可以访问此作用域内定义的变量 count。`
 
 `利用闭包，修改下面的代码，让循环输出的结果依次为1， 2， 3， 4， 5`
 ```
