@@ -1,5 +1,14 @@
-# 原生Ajax: 
+# 原生Ajax:
 
+> ### remember:  
+>  XMLHttpRequest  
+  onreadystatechange  
+  readyState  
+  status  
+  responseText  
+  open  
+  send  
+  
 ```javascript
 window.onload = function(){
   var oBtn = document.getElementById('btn');
